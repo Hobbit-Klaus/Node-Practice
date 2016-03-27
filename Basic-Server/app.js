@@ -1,14 +1,9 @@
 var http = require('http');
+var url = require('url');
 
-// http.createServer(function(req, res) {
-//   res.writeHead(200);
-//   res.write("Hello, World!!!");
-//   res.end();
-// }).listen(3000);
-
-http.createServer((req, res) => {
+http.createServer(function(req, res) {
   res.writeHead(200);
-  res.write("Hello, World!!!");
+  res.write(req.url);
   res.end();
 }).listen(3000);
 
