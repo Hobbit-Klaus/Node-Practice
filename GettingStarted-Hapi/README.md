@@ -1,3 +1,3 @@
 # hapi Getting Started
 
-http://hapijs.com/tutorials
+sourced by http://hapijs.com/tutorials
